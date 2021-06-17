@@ -1,6 +1,6 @@
 ## package-distributions
 
-# Introduction
+### Introduction
 In this package, I build a python package which deals with probability distributions. More specifically, I build a class Distribution, then let two classes Gaussian (distribution) and Binomial (distribution) inherit from Distribution. Methods include the following:
 * For all distributions:
   * `read_data_file`: read in data from a txt file
@@ -17,7 +17,7 @@ In this package, I build a python package which deals with probability distribut
   * `plot_bar`: plot a bar chart of the data set
   * `plot_bar_pdf`: plot a bar chart of the probability density function
 
-# Documents
+### Documents
 This package includes the following documents:
 * `setup.py`: to set up the package
 * `test.py`: a test file to see if the code runs without error
@@ -28,7 +28,7 @@ This package includes the following documents:
   * `Generaldistribution.py`: containing the class Distribution
   * `Gaussiandistribution.py`: containing the class Gaussian
   * `Binomialdistribution.py`: containing the class Binomial
-# Installation
+### Installation
 This should run with Python 3.*.
 
 To avoid installing extra package on your local environment, please create a virtual environment to run this package. After this step, you can follow the steps as below:
@@ -36,8 +36,8 @@ To avoid installing extra package on your local environment, please create a vir
 2. Type `pip install .`.
 3. You are now ready to go. To check, you can type `python -m unittest test` to see if the code does run without error.
 
-# Limitation
+### Limitation
 For simplicity, I assume that the data set for Binomial distribution only contains 0 and 1. The code does not work for other cases.
 
-# Source
+### Source
 This package is an exercise in Udacity Data Scientist Nanodegree Program. The general structure, the test files, and the todo instructions are written by their instructors. I completed the codes.
